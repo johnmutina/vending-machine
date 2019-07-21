@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/vending-machine/static/css/main.a56c1516.chunk.css",
+    "main.js": "/vending-machine/static/js/main.2921e21d.chunk.js",
+    "main.js.map": "/vending-machine/static/js/main.2921e21d.chunk.js.map",
+    "runtime~main.js": "/vending-machine/static/js/runtime~main.7072e60e.js",
+    "runtime~main.js.map": "/vending-machine/static/js/runtime~main.7072e60e.js.map",
+    "static/js/2.db3002b2.chunk.js": "/vending-machine/static/js/2.db3002b2.chunk.js",
+    "static/js/2.db3002b2.chunk.js.map": "/vending-machine/static/js/2.db3002b2.chunk.js.map",
+    "index.html": "/vending-machine/index.html",
+    "precache-manifest.e84e1955e467d163954b8e6ef160e4c3.js": "/vending-machine/precache-manifest.e84e1955e467d163954b8e6ef160e4c3.js",
+    "service-worker.js": "/vending-machine/service-worker.js",
+    "static/css/main.a56c1516.chunk.css.map": "/vending-machine/static/css/main.a56c1516.chunk.css.map",
+    "static/media/background_music.mp3": "/vending-machine/static/media/background_music.fb662d59.mp3",
+    "static/media/cat.wav": "/vending-machine/static/media/cat.21454d42.wav",
+    "static/media/chips.wav": "/vending-machine/static/media/chips.4defe666.wav",
+    "static/media/soda.mp3": "/vending-machine/static/media/soda.f253592a.mp3"
+  }
+}
