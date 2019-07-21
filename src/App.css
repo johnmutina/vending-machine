@@ -1,0 +1,48 @@
+* {
+    font-family: "Courier New", Courier, monospace;
+}
+
+button {
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 20px 40px;
+    border-radius: 50px;
+    background-color: greenyellow;
+    -webkit-transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+}
+
+button:hover {
+    text-decoration: underline;
+    transform: translateY(2px);
+}
+
+.App {
+    text-align: center;
+}
+
+.App-navbar {
+    padding: 0 20%;
+    width: 60%;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: greenyellow;
+    position: fixed;
+    top: 0;
+    font-weight: 800;
+    color: black;
+}
+
+.App-navbar a {
+    color: black;
+}
+
+.App-navbar a.App-active {
+    color: blue;
+}

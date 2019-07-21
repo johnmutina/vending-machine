@@ -1,0 +1,30 @@
+.VendingMachine {
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    background: url("https://static.turbosquid.com/Preview/001314/974/YI/_D.jpg")
+        no-repeat fixed top;
+    background-size: cover;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.VendingMachine a {
+    color: black;
+}
+
+.VendingMachine-intro {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    width: 300px;
+    border-radius: 9px;
+}
+
+.VendingMachine-menu {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    width: 150px;
+    border-radius: 9px;
+}
