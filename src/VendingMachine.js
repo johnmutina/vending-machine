@@ -11,13 +11,13 @@ class VendingMachine extends Component {
                     Select whatever you want from the menu here at my right!
                 </p>
                 <div className="VendingMachine-menu">
-                    <Link exact to="/soda">
+                    <Link exact to="/vending-machine/soda">
                         <h2>Soda</h2>
                     </Link>
-                    <Link exact to="/chips">
+                    <Link exact to="/vending-machine/chips">
                         <h2>Chips</h2>
                     </Link>
-                    <Link exact to="/cats">
+                    <Link exact to="/vending-machine/cats">
                         <h2>Cats</h2>
                     </Link>
                 </div>

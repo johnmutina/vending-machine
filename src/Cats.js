@@ -23,7 +23,7 @@ class Cats extends Component {
                     </h3>
                     <img src={cats} alt="black cat" />
                 </div>
-                <Link to="/react-router">
+                <Link to="/vending-machine">
                     <button>Go Back</button>
                 </Link>
             </div>

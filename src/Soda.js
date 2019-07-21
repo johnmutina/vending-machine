@@ -23,7 +23,7 @@ class Soda extends Component {
                     </h3>
                     <img src={sodaBottle} alt="soda bottle" />
                 </div>
-                <Link to="/react-router">
+                <Link to="/vending-machine">
                     <button>Go Back</button>
                 </Link>
             </div>

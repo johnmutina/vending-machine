@@ -17,26 +17,30 @@ function App() {
                 volume={10}
             />
             <div className="App-navbar">
-                <NavLink exact to="/react-router" activeClassName="App-active">
+                <NavLink
+                    exact
+                    to="/vending-machine"
+                    activeClassName="App-active"
+                >
                     Vending Machine
                 </NavLink>
                 <NavLink
                     exact
-                    to="/react-router/soda"
+                    to="/vending-machine/soda"
                     activeClassName="App-active"
                 >
                     Soda
                 </NavLink>
                 <NavLink
                     exact
-                    to="/react-router/chips"
+                    to="/vending-machine/chips"
                     activeClassName="App-active"
                 >
                     Chips
                 </NavLink>
                 <NavLink
                     exact
-                    to="/react-router/cats"
+                    to="/vending-machine/cats"
                     activeClassName="App-active"
                 >
                     Cats
@@ -45,10 +49,14 @@ function App() {
 
             {/* ROUTES FOR CLIENT-SIDE ROUTING */}
             <Switch>
-                <Route exact path="/react-router" component={VendingMachine} />
-                <Route exact path="/react-router/soda" component={Soda} />
-                <Route exact path="/react-router/chips" component={Chips} />
-                <Route exact path="/react-router/cats" component={Cats} />
+                <Route
+                    exact
+                    path="/vending-machine"
+                    component={VendingMachine}
+                />
+                <Route exact path="/vending-machine/soda" component={Soda} />
+                <Route exact path="/vending-machine/chips" component={Chips} />
+                <Route exact path="/vending-machine/cats" component={Cats} />
             </Switch>
         </div>
     );
